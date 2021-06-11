@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
+  <div id="app1" class="app1-single-app">
+    <div id="nav1">
+      <router-link to="/home">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view />
@@ -17,16 +17,16 @@
   color: #2c3e50;
 }
 
-#nav {
+#nav1 {
   padding: 30px;
 }
 
-#nav a {
+#nav1 a {
   font-weight: bold;
   color: #2c3e50;
 }
 
-#nav a.router-link-exact-active {
+#nav1 a.router-link-exact-active {
   color: #42b983;
 }
 </style>

@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "normalize.css": "^8.0.1",
+    "postcss-selector-namespace": "^3.0.1",
+    "single-spa-vue": "^2.3.0",
+    "stats-webpack-plugin": "^0.7.0",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
